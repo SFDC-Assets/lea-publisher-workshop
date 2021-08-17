@@ -3,7 +3,7 @@
   "adminEmail": "sfdx@mailinator.com",
   "hasSampleData": true,
   "edition": "Developer",
-  "features": ["Communities"],
+  "features": ["Communities", "enableSetPasswordInApi"],
   "settings": {
     "communitiesSettings": {
       "enableNetworksEnabled": true
@@ -19,11 +19,6 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
-    },
-    "securitySettings": {
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
-      }
     }
   }
 }
